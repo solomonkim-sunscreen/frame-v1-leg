@@ -175,7 +175,7 @@
       <a href="#about">About</a>
       <a href="#files">CAD files</a>
       <a href="#license">License</a>
-      <a class="btn-small" href="https://github.com/sunscreen-energy/frame-v1-leg">GitHub ↗</a>
+      <a class="btn-small" href="https://github.com/solomonkim-sunscreen/frame-v1-leg">GitHub ↗</a>
     </div>
   </div>
 </nav>
@@ -188,7 +188,7 @@
       <p class="lede">Two mirrored legs — thigh, calf, ankle and foot — driven by CubeMars AKE90-8 actuators. Designed at <strong>Sunscreen Inc.</strong> by Jaden Dodoo, and released as open-source hardware under CERN-OHL-S.</p>
       <div class="cta-row">
         <a class="btn btn-amber" href="#files">Download the CAD ↓</a>
-        <a class="btn btn-ghost" href="https://github.com/sunscreen-energy/frame-v1-leg">View on GitHub ↗</a>
+        <a class="btn btn-ghost" href="https://github.com/solomonkim-sunscreen/frame-v1-leg">View on GitHub ↗</a>
       </div>
       <p class="hero-meta"><b>CERN-OHL-S v2</b> · STEP AP214 · Exported from Onshape, Nov 2026</p>
     </div>
@@ -245,8 +245,35 @@
         <span><code>cad/Full_Legs.step</code></span><span>Both legs combined</span><span class="hide-m">7.6 MB</span>
         <a class="dl" href="cad/Full_Legs.step" download>Download ↓</a>
       </div>
+      <div class="file-row">
+        <span><code>cad/Ball_Joint_Actuator.step</code></span><span>Ball Joint Actuator — 3-DOF gearbox</span><span class="hide-m">3.5 MB</span>
+        <a class="dl" href="cad/Ball_Joint_Actuator.step" download>Download ↓</a>
+      </div>
+      <div class="file-row">
+        <span><code>cad/Robotic_Elbow_Joint.step</code></span><span>Robotic Elbow Joint — belt-driven</span><span class="hide-m">1.9 MB</span>
+        <a class="dl" href="cad/Robotic_Elbow_Joint.step" download>Download ↓</a>
+      </div>
     </div>
     <p style="margin-top:16px; font-size:14px; color:var(--muted);">The Knee Motor Model from the same Onshape folder is not in this release yet. A full parts list lives in <code>docs/parts.md</code>.</p>
+  </div>
+</section>
+
+<section id="steven">
+  <div class="wrap">
+    <h2>Steven Beckley's designs</h2>
+    <p class="section-lede">Two more designs by Steven Beckley, a former Sunscreen engineer, released under the same CERN-OHL-S licence. STEP files are in the table above; full write-ups live in <code>docs/steven-beckley/</code>.</p>
+    <div class="two-col">
+      <div>
+        <h3>Ball Joint Actuator</h3>
+        <p>A 3-degree-of-freedom ball joint gearbox — yaw, pitch and roll. Roll is driven by angled miter gears; pitch by a larger 45° miter gear engaging teeth on the upper hemisphere; yaw by a third actuator, not yet integrated.</p>
+        <p><a class="dl" href="docs/steven-beckley/ball-joint-actuator.pdf">Read the write-up (PDF) ↓</a></p>
+      </div>
+      <div>
+        <h3>Robotic Elbow Joint</h3>
+        <p>A belt-driven elbow with a DAMIAO DM-J10010L-EC actuator near the shoulder, giving a 1:8 gear reduction. Theoretical peak torque 960 Nm; about 100 kg of lift at the actuator's 40 Nm running torque.</p>
+        <p><a class="dl" href="docs/steven-beckley/robotic-elbow-joint.pdf">Read the write-up (PDF) ↓</a></p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -275,8 +302,8 @@
 
 <footer>
   <div class="wrap">
-    <span>Designed by <strong>Jaden Dodoo</strong> at <strong>Sunscreen Inc.</strong> — sunscreen.energy</span>
-    <span><a href="https://github.com/sunscreen-energy/frame-v1-leg">GitHub</a> · <a href="LICENSE">CERN-OHL-S-2.0</a></span>
+    <span>Designed by <strong>Jaden Dodoo</strong> and <strong>Steven Beckley</strong> at <strong>Sunscreen Inc.</strong> — sunscreen.energy</span>
+    <span><a href="https://github.com/solomonkim-sunscreen/frame-v1-leg">GitHub</a> · <a href="LICENSE">CERN-OHL-S-2.0</a></span>
   </div>
 </footer>
 
